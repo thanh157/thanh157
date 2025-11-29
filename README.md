@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/05/anh-anime-nu-ngau-lanh-lung-5.jpg" width="700" />
+  <img src="https://hinhanhonline.com/Hinhanh/images11/AnhMB/hinh-anh-anime-girl-de-thuong.jpg" width="700" />
 </p>
 
 <p align="center">z
