@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://images3.alphacoders.com/137/1377822.png" width="700" />
+  <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/05/anh-anime-nu-ngau-lanh-lung-5.jpg" width="700" />
 </p>
 
-<p align="center">
+<p align="center">z
   <b>꧁Hello, chào mừng bạn đã đến với Github của Sad_girl.IT꧂</b>
 </p>
