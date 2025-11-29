@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-  <b>꧁Hello, chào mừng bạn đã đến với Github của Sad_girl.IT꧂</b>
+  <b>꧁Hello, Welcome to Sad_girl.IT Github꧂</b>
 </p>
