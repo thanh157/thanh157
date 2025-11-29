@@ -1,122 +1,104 @@
-import React, { useState, useEffect } from 'react';
+<div align="center">
+  <img src="https://i.pinimg.com/1200x/0a/30/15/0a301578fedbacc1db0274bece4384b9.jpg" width="200" style="border-radius: 50%; border: 3px solid #ff69b4;" />
+</div>
 
-const GitHubProfile = () => {
-  const [leaves, setLeaves] = useState([]);
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=435&lines=%E0%A7%81Hello%2C+Welcome+to%E0%A7%82;Sad_girl.IT+Github+%F0%9F%8C%B8" alt="Typing SVG" />
+</h1>
 
-  useEffect(() => {
-    const createLeaf = (id) => ({
-      id,
-      left: Math.random() * 100,
-      animationDuration: 5 + Math.random() * 10,
-      delay: Math.random() * 5,
-      size: 15 + Math.random() * 15,
-      rotation: Math.random() * 360,
-      swing: Math.random() * 100 - 50
-    });
+<p align="center">
+  <img src="https://img.shields.io/badge/Code-With_Passion-ff69b4?style=for-the-badge&logo=heart" />
+  <img src="https://img.shields.io/badge/Create-With_Heart-9370db?style=for-the-badge&logo=sparkles" />
+</p>
 
-    const initialLeaves = Array.from({ length: 20 }, (_, i) => createLeaf(i));
-    setLeaves(initialLeaves);
+---
 
-    const interval = setInterval(() => {
-      setLeaves(prev => {
-        const newLeaves = [...prev];
-        if (newLeaves.length < 30) {
-          newLeaves.push(createLeaf(Date.now()));
-        }
-        return newLeaves.slice(-30);
-      });
-    }, 2000);
+### 💫 About Me
 
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-    <div className="relative min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden">
-      {/* Hiệu ứng lá rơi */}
-      {leaves.map((leaf) => (
-        <div
-          key={leaf.id}
-          className="absolute pointer-events-none"
-          style={{
-            left: `${leaf.left}%`,
-            top: '-50px',
-            animation: `fall ${leaf.animationDuration}s linear infinite`,
-            animationDelay: `${leaf.delay}s`,
-            fontSize: `${leaf.size}px`,
-            transform: `rotate(${leaf.rotation}deg)`,
-            '--swing-amount': `${leaf.swing}px`
-          }}
-        >
-          🍂
-        </div>
-      ))}
-
-      {/* Nội dung chính */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-8">
-        {/* Ảnh đại diện */}
-        <div className="mb-8 relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-full blur-xl opacity-50 animate-pulse"></div>
-          <img
-            src="https://i.pinimg.com/1200x/0a/30/15/0a301578fedbacc1db0274bece4384b9.jpg"
-            alt="Profile"
-            className="relative w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white/30 shadow-2xl"
-          />
-        </div>
-
-        {/* Tiêu đề */}
-        <div className="text-center space-y-4 backdrop-blur-sm bg-white/5 p-8 rounded-2xl border border-white/10 shadow-2xl">
-          <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 animate-pulse">
-            ꧁Hello, Welcome to꧂
-          </h1>
-          <h2 className="text-3xl md:text-5xl font-bold text-white">
-            Sad_girl.IT Github
-          </h2>
-          
-          {/* Mô tả ngắn */}
-          <p className="text-lg md:text-xl text-purple-200 max-w-2xl mx-auto mt-6">
-            💻 Passionate Developer | 🌸 Creative Coder | ✨ Dream Builder
-          </p>
-
-          {/* Stats hoặc Skills */}
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
-            {['JavaScript', 'React', 'Node.js', 'Python'].map((skill, i) => (
-              <span
-                key={i}
-                className="px-4 py-2 bg-gradient-to-r from-pink-500/20 to-purple-500/20 border border-purple-400/30 rounded-full text-purple-200 text-sm font-medium backdrop-blur-sm hover:scale-110 transition-transform cursor-default"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-
-          {/* Social Links */}
-          <div className="flex justify-center gap-6 mt-8">
-            <a href="#" className="text-3xl hover:scale-125 transition-transform">💌</a>
-            <a href="#" className="text-3xl hover:scale-125 transition-transform">🌟</a>
-            <a href="#" className="text-3xl hover:scale-125 transition-transform">🎨</a>
-          </div>
-        </div>
-
-        {/* Quote */}
-        <div className="mt-8 text-center">
-          <p className="text-purple-300 italic text-lg">
-            "Code with passion, create with heart 💜"
-          </p>
-        </div>
-      </div>
-
-      <style jsx>{`
-        @keyframes fall {
-          0% {
-            transform: translateY(0) translateX(0) rotate(0deg);
-          }
-          100% {
-            transform: translateY(100vh) translateX(var(--swing-amount)) rotate(360deg);
-          }
-        }
-      `}</style>
-    </div>
-  );
+```javascript
+const sadGirl = {
+    pronouns: "she/her",
+    code: ["JavaScript", "Python", "HTML", "CSS"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "Vue"],
+            css: ["Tailwind", "Bootstrap"]
+        },
+        backEnd: {
+            js: ["Node", "Express"],
+        },
+        databases: ["MongoDB", "MySQL"],
+    },
+    currentFocus: "Building beautiful & functional web apps 🌸",
+    funFact: "I debug with tears and coffee ☕💜"
 };
+```
 
-export default GitHubProfile;
+---
+
+### 🌸 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,python,html,css,git,github,vscode,figma" />
+</p>
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=thanh157&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10&border_color=ff69b4"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanh157&layout=compact&langs_count=8&theme=radical&border_radius=10&border_color=ff69b4"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=thanh157&theme=radical&border_radius=10&border=ff69b4" alt="GitHub Streak" />
+</div>
+
+---
+
+### 🌟 Featured Projects
+
+<div align="center">
+  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=thanh157&repo=your-repo-name&theme=radical&border_color=ff69b4)](https://github.com/thanh157/your-repo-name)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=thanh157&repo=another-repo&theme=radical&border_color=ff69b4)](https://github.com/thanh157/another-repo)
+
+</div>
+
+---
+
+### 💌 Connect With Me
+
+<p align="center">
+  <a href="https://github.com/thanh157">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://facebook.com/yourprofile">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/yourprofile">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
+
+---
+
+### 🎀 Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Code%20with%20passion%2C%20create%20with%20heart%20%F0%9F%92%9C&author=Sad_girl.IT" />
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=fff&animation=twinkling" />
+</div>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=thanh157&color=ff69b4&style=for-the-badge&label=Profile+Views" />
+</p>
