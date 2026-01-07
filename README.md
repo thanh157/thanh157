@@ -75,13 +75,14 @@
 
 <br/>
 
-## 📊 GitHub Analytics
 
-<div align="center">
+<!--GitHub Analytics -->
+
+<!-- <div align="center">
   
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=thanh157&theme=react-dark&bg_color=0D1117&color=F85D7F&line=F85D7F&point=FFFFFF&area=true&hide_border=true" width="100%"/>
 
-<br/>
+<br/> -->
 
 <table>
 <tr>
