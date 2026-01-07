@@ -98,25 +98,7 @@
 
 <br/>
 
-## 😉 About Me
 
-
-```
-🙆 MyProfile:
-  Name: "Hà Dương Thanh 💤"
-  People often call me Lu: This nickname appeared when I was in high school🐰
-  Birthday: "July 15, 2003"
-  location: "Tuyen Quang"
-  education: "IT Student"
-  My boyfriend's style: Has good taste in clothes, baddboy interface, warm baby boy operating system, good at studying, loves animals, thoughtful and filial...♥️
-🤸 Work:
-  role: "Fullstack Developer"
-  focus: "Web Development & UI/UX"
-```
-<br clear="right"/>
-<br/>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-<br/>
 
 
 
@@ -192,14 +174,7 @@
 <br/>
 
 
-## 💭 Some things I want to tell you...
-<div align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=You%20like%20me%3F%20Hmm%E2%80%A6%20No%20no%2C%20don%E2%80%99t%20like%20me,%20Okay💞&author=Just%20kidding%20%F0%9F%98%89" width="600"/>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<br/><br/>
+<br/>
 
 <div align="center">
 
